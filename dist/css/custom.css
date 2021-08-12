@@ -1,0 +1,208 @@
+/* Global */
+.nm-btn-full button {
+    width: 100%;
+}
+
+.nm-dashboard-header h1 {
+    font-size: 28px;
+}
+
+
+/* Preloader */
+.spinner2 .container1 div,
+.spinner2 .container2 div,
+.spinner2 .container3 div {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #F9BE02 !important;
+}
+
+
+/* Header */
+.nm-header-image img {
+    width: 25px;
+}
+
+.brand-link {
+    padding-bottom: 0px;
+}
+
+.brand-link img {
+    max-width: 170px;
+}
+
+.main-sidebar {
+    background: #f9be02;
+}
+
+.brand-text,
+.info a {
+    color: #fff;
+}
+
+.nav-pills .nav-link {
+    color: #fff;
+}
+
+.nav-item .active {
+    color: #fff;
+    background: rgb(220 173 23) !important;
+}
+
+.nav-pills .nav-link:hover {
+    background: rgb(220 173 23);
+    color: #fff !important;
+}
+
+.nav-treeview .nav-link {
+    font-size: 14px;
+    padding-left: 35px;
+}
+
+/* Dashboard */
+
+/* .nm-info-box{} */
+.info-box i {
+    color: #02C8A7;
+}
+
+.info-box-number {
+    font-size: 30px !important;
+}
+
+.nm-info-box-text {
+    font-size: 20px !important;
+}
+
+.form-control:focus {
+    border-color: #f9be02 !important;
+}
+
+.nm-info-box-text {
+    margin-bottom: 0px;
+}
+
+/* @media (min-width: 768px){
+    
+}
+.nm-notification .col-md-12{
+    max-width: 20%;
+} */
+
+.nm-revenue {
+    padding: 30px 10px;
+}
+
+.info-revenue-text {
+    font-size: 30px;
+}
+
+/* Date range */
+/* .nm-date-range{
+   margin-top: 20px;
+} */
+
+.kronos-inner {
+    left: -97px !important;
+}
+
+.kronos-outer .kronos-input:focus,
+.kronos-outer .kronos-input:hover,
+.kronos-outer .kronos-input:active {
+    border-color: #F9BE02 !important;
+}
+
+.kronos-date-body table thead tr th {
+    text-align: center;
+}
+
+.kronos-date-body table tbody tr td.selected button {
+    border-color: #F9BE02;
+    background: #F9BE02;
+}
+
+/* Account */
+/* #activity{
+    background: transparent !important;
+} */
+
+
+/* Login */
+.login-box,
+.register-box {
+    width: 35%;
+    border: 1px solid #F9BE02 !important;
+    padding: 30px 20px;
+    margin: 0px auto;
+    background: #fff;
+}
+
+.login-box .card,
+.register-box .card{
+    box-shadow: none;
+}
+
+.login-logo img {
+    width: 250px;
+}
+
+.nm-link a {
+    color: #f9be02;
+}
+
+.login-card-body .input-group .form-control:focus~.input-group-prepend .input-group-text,
+.login-card-body .input-group .form-control:focus~.input-group-append .input-group-text,
+.register-card-body .input-group .form-control:focus~.input-group-prepend .input-group-text,
+.register-card-body .input-group .form-control:focus~.input-group-append .input-group-text {
+    border-color: #f9be02 !important;
+}
+
+@media only screen and (max-width:780px) {
+    .login-box, .register-box{
+        width: 65%;
+    }
+    .nm-date-range {
+        position: relative;
+        top: 15px;
+    }
+
+    .kronos-outer {
+        width: 37%;
+    }
+
+    #nmDateTo {
+        width: 100%;
+    }
+
+    .col-md-3 {
+        -webkit-flex: 0 0 40%;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .col-md-2 {
+        -webkit-flex: 0 0 40%;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .col-12 {
+        -webkit-flex: 0 0 100% !important;
+        -ms-flex: 0 0 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .login-box, .register-box{
+        width: 90%;
+    }
+
+    .kronos-inner {
+        width: 180% !important;
+        left: -50px !important;
+    }
+
+}
